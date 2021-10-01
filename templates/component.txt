@@ -1,0 +1,11 @@
+import React from "react";
+import type { FC } from "react";
+import type { NAMEProps } from "./types";
+
+export const NAME: FC<NAMEProps> = () => {
+  return (
+    <>
+      It is NAME component!
+    </>
+  );
+};
